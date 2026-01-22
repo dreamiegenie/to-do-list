@@ -209,7 +209,7 @@ input[type="checkbox"]{
 
     /* Shrink the input box so it doesn't overflow */
     input[type="text"] {
-        width: 80%;
+        width: 100%;
     }
 
     #container {
