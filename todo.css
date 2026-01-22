@@ -207,10 +207,13 @@ input[type="checkbox"]{
         top: 40px;
     }
 
-    /* Shrink the input box so it doesn't overflow */
+
     input[type="text"] {
-        width: 100%;
-    }
+  field-sizing: content; /* Input grows horizontally with typed text */
+  min-width: 200px;      /* Starting size */
+  max-width: 100%;      /* Won't go off-screen */
+}
+
 
     #container {
     position: relative;
