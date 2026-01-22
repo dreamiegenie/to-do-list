@@ -140,8 +140,7 @@ span img{
 }
 
 summary{
-    font-family: "Bree Serif", serif !important;
-    fonf-family: Verdana ;
+    font-family: "Bree Serif", serif;
     font-weight: 400;
     color: #777EE4;
 }
@@ -208,13 +207,10 @@ input[type="checkbox"]{
         top: 40px;
     }
 
-
+    /* Shrink the input box so it doesn't overflow */
     input[type="text"] {
-  field-sizing: content; /* Input grows horizontally with typed text */
-  min-width: 200px;      /* Starting size */
-  max-width: 80%;      /* Won't go off-screen */
-}
-
+        width: 80%;
+    }
 
     #container {
     position: relative;
